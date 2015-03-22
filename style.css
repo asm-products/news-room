@@ -187,7 +187,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #666;
-    background: url('https://d1015h9unskp4y.cloudfront.net/attachments/9ab28d47-a5df-4a82-a892-b9cbc7a18607/background.jpg') no-repeat top center scroll;
+    background: url(img/background) no-repeat top center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
