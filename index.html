@@ -185,11 +185,11 @@
         .done(function(data) {
           $form.find('input[name="email"]').val('');
           $('.alert-success').fadeTo(100, 1);
-          $('.alert-success').fadeTo(300, 0);
+          $('.alert-success').fadeTo(3000, 0);
         })
         .fail(function(err) {
           $('.alert-danger').fadeTo(100, 1);
-          $('.alert-danger').fadeTo(300, 0);
+          $('.alert-danger').fadeTo(3000, 0);
         });
     }
 
